@@ -5,11 +5,39 @@
  generation.
  This README provides comprehensive documentation for understanding the project architecture,
  queries, and implementation. It is tailored for academic projects, portfolios, or data analyst interviews.
- ## 💡 Objectives
- Normalize and model Zomato's restaurant metadata using SQL.
- Answer real-world business questions using advanced SQL queries.
- Perform exploratory data analysis using filtering, grouping, joins, and window functions.
- Visualize the insights using BI tools (optional extension).
+# 🎯 Project Objectives
+
+### 1. Data Modeling & Normalization
+- Design a relational database schema using the principles of 3rd Normal Form (3NF) for the Zomato dataset.
+
+- Separate composite and multi-valued attributes (e.g., cuisines) into appropriate junction tables for efficient querying.
+
+### 2.Data Cleaning & Preparation
+
+- Clean and transform the raw dataset using SQL or spreadsheet tools to ensure consistency, remove duplicates, and format boolean/numeric values.
+
+### 3.Advanced SQL Query Development
+
+- Write and optimize advanced SQL queries to extract business insights using:
+- Aggregate functions (SUM, AVG, COUNT)
+- Window functions (RANK, ROW_NUMBER, NTILE)
+- Subqueries and Common Table Expressions (CTEs)
+- JOINS across normalized tables
+
+### 4. Real-world Business Problem Solving
+
+- Analyze food trends, customer preferences, and pricing strategies using SQL.
+- Address questions related to:
+
+i) Top-rated restaurants by city
+ii) Popular cuisines
+iii) Delivery and booking patterns
+iv) Location-based pricing and rating behavior
+
+### 5.Performance & Best Practices
+
+- Implement indexing strategies for large datasets.
+- Structure queries for maintainability and performance optimization.
  ## 📊 Dataset Description
 
 | Column                     | Description                                     |
